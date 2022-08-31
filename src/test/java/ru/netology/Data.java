@@ -62,10 +62,10 @@ public class Data {
             return user;
         }
 
-        public static RegistrationTo getRegUser(String status) {
-            RegistrationTo regUser = getUser(status);
-            sendRequest(regUser);
-            return regUser;
+        public static RegistrationTo getRegisteredUser(String status) {
+            RegistrationTo registeredUser = getUser(status);
+            sendRequest(registeredUser);
+            return registeredUser;
         }
     }
 }
